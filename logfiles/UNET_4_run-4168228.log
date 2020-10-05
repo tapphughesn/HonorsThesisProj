@@ -1,0 +1,9 @@
+Starting PreTraining Script
+Tensorflow version: 2.2.1
+Current time: 09-30-2020-19:58:53
+Traceback (most recent call last):
+  File "small_pretrain.py", line 60, in <module>
+    model = unet_4()
+  File "/proj/NIRAL/users/nic98/models/unet_4/model.py", line 9, in __init__
+    super(unet_2, self).__init__()
+NameError: name 'unet_2' is not defined

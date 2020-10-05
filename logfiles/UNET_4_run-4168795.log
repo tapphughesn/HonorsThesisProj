@@ -1,0 +1,65 @@
+2020-09-30 20:44:53.546167: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-09-30 20:44:56.629740: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: GeForce GTX 1080 computeCapability: 6.1
+coreClock: 1.835GHz coreCount: 20 deviceMemorySize: 7.93GiB deviceMemoryBandwidth: 298.32GiB/s
+2020-09-30 20:44:56.634450: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-09-30 20:44:56.762650: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-09-30 20:44:56.828231: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-09-30 20:44:56.902691: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-09-30 20:44:56.997022: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-09-30 20:44:57.058409: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-09-30 20:44:57.218911: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-09-30 20:44:57.221323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-09-30 20:44:57.221885: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-09-30 20:44:57.228726: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2600245000 Hz
+2020-09-30 20:44:57.228851: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f0024000b20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-09-30 20:44:57.228861: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-09-30 20:44:57.336717: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x476e1a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-09-30 20:44:57.336743: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1080, Compute Capability 6.1
+2020-09-30 20:44:57.352243: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: GeForce GTX 1080 computeCapability: 6.1
+coreClock: 1.835GHz coreCount: 20 deviceMemorySize: 7.93GiB deviceMemoryBandwidth: 298.32GiB/s
+2020-09-30 20:44:57.352280: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-09-30 20:44:57.352291: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-09-30 20:44:57.352299: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-09-30 20:44:57.352308: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-09-30 20:44:57.352316: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-09-30 20:44:57.352324: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-09-30 20:44:57.352333: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-09-30 20:44:57.354511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-09-30 20:44:57.354535: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-09-30 20:44:57.355966: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-09-30 20:44:57.355981: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-09-30 20:44:57.355988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-09-30 20:44:57.358354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7526 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:04:00.0, compute capability: 6.1)
+2020-09-30 20:45:08.603762: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-09-30 20:45:13.059202: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+Starting PreTraining Script
+Tensorflow version: 2.2.1
+Current time: 09-30-2020-20:44:53
+Training on 1 epochs of 5 batches each
+Loading Data for epoch 0 batch 0
+3
+4
+Epoch 0 progress:  0.0
+LOSS:  tf.Tensor(46818640.0, shape=(), dtype=float32) ACC:  0.026328435
+Loading Data for epoch 0 batch 1
+2
+1
+Epoch 0 progress:  1.0
+LOSS:  tf.Tensor(44047504.0, shape=(), dtype=float32) ACC:  0.028438022
+Loading Data for epoch 0 batch 2
+8
+0
+Epoch 0 progress:  2.0
+LOSS:  tf.Tensor(41299104.0, shape=(), dtype=float32) ACC:  0.028271388
+Loading Data for epoch 0 batch 3
+7
+6
+Epoch 0 progress:  3.0
+LOSS:  tf.Tensor(47135070.0, shape=(), dtype=float32) ACC:  0.02347383
+Loading Data for epoch 0 batch 4
+5
+9
+Epoch 0 progress:  4.0
+LOSS:  tf.Tensor(43581440.0, shape=(), dtype=float32) ACC:  0.025714207

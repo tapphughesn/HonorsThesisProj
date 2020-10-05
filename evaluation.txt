@@ -1,0 +1,2 @@
+stx_noscale_336398_V24_RAI_Bias_corrected_EMS_half1_new_seg.nii.gz; stx_noscale_336398_V24_RAI_Bias_label_half1.nii.gz; 43.4430; 33.6080; 9.8350; 29.2639; 29.2639; 0.6129; 0.9072; 5.3852; 23.56
+stx_noscale_336398_V24_RAI_Bias_corrected_EMS_half1_new_seg.nii.gz; stx_noscale_336398_V24_RAI_Bias_label_half1.nii.gz; 43.4430; 33.6080; 9.8350; 29.2639; 29.2639; 0.6129; 0.9072; 5.3852; 23.56

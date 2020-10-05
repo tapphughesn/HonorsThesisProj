@@ -1,0 +1,1 @@
+Change np methods in training scripts to tf methods (np.load)

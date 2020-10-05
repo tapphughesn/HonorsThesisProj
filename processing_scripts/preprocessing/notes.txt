@@ -1,0 +1,9 @@
+I found that SimpleITK and pynrrd load nrrd files differently!
+
+sitk loads them with array shape (159, 233, 195) = (Transverse, Sagittal, Coronal)
+pynrrd loads them with array shape (195, 233, 159)  = (Coronal, Sagittal, Transverse)
+
+However, if you use Nibabel to save the pynrrd image and use sitk to save the sitk image, the resulting .nii.gz files are the same
+
+For the software, I will need to re-process the data according to sitk loading, and train the network on that data.
+Then the software will be able to use sitk's robustness to file format variance.
